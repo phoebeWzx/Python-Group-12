@@ -4,6 +4,7 @@
 ## Look-up table
 
 - [Team](#Team)
+- [User Interface in terminal](#User)
 - [Main Features](#Features)
 - [Text Result](#Text)
 - [Raw Data](#Raw)
@@ -13,6 +14,9 @@
 [![Chloe Kim](chloe.png)](mailto:minkyun3@andrew.cmu.edu)  | [![Phoebe Wu](pheobe.png)](mailto:minkyun3@andrew.cmu.edu)
 ---|---
 [Chloe Kim](mailto:minkyun3@andrew.cmu.edu) |[Phoebe Wu](mailto:minkyun3@andrew.cmu.edu)
+
+## User Interface in terminal
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/consolfinal.png)
 
 ## Features
 ### Feature 1

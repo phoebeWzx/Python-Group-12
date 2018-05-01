@@ -4,11 +4,11 @@
 ## Table of Contents
 
 - [Team](#team)
-- [User Interface in terminal](#user-Interface-in-terminal)
+- [User Interface in terminal](#user-interface-in-terminal)
 - [Main Features](#features)
-- [Text Result](#text-Result-from-Console)
+- [Text Result](#text-result-from-console)
 - [Raw Data](#Raw)
-- [Final Presentation](#final-Presentation)
+- [Final Presentation](#final-psresentation)
 
 ## Team
 ### The Job Seekers

@@ -3,12 +3,12 @@
 
 ## Table of Contents
 
-- [Team](#Team)
-- [User Interface in terminal](#User-Interface-in-terminal)
-- [Main Features](#Features)
-- [Text Result](#Text-Result-from-Console)
+- [Team](#team)
+- [User Interface in terminal](#user-Interface-in-terminal)
+- [Main Features](#features)
+- [Text Result](#text-Result-from-Console)
 - [Raw Data](#Raw)
-- [Final Presentation](#Final-Presentation)
+- [Final Presentation](#final-Presentation)
 
 ## Team
 - the Job Seekers

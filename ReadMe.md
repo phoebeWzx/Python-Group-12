@@ -3,10 +3,10 @@
 
 ## Look-up table
 
-- [Final presentation](#Presentation)
+- [Final presentation](#Final)
 - [Team](#Team)
 
-## Presentation
+## Final Presentation
 - [Shared ppt](https://goo.gl/Zfe4Jk)
 
 ## Team : the Job Seekers

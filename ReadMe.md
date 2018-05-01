@@ -3,14 +3,15 @@
 
 ## Table of Contents
 
-- [Team](#Team-:-the-Job-Seekers)
+- [Team](#Team)
 - [User Interface in terminal](#User-Interface-in-terminal)
 - [Main Features](#Features)
 - [Text Result](#Text-Result-from-Console)
 - [Raw Data](#Raw)
 - [Final Presentation](#Final-Presentation)
 
-## Team : the Job Seekers
+## Team
+- the Job Seekers
 [![Chloe Kim](chloe.png)](mailto:minkyun3@andrew.cmu.edu)  | [![Phoebe Wu](pheobe.png)](mailto:minkyun3@andrew.cmu.edu)
 ---|---
 [Chloe Kim](mailto:minkyun3@andrew.cmu.edu) |[Phoebe Wu](mailto:minkyun3@andrew.cmu.edu)

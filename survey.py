@@ -18,69 +18,194 @@ survey = pd.read_csv('input/HackerRank-Developer-Survey-2018-Values.csv', low_me
 survey_codebook = pd.read_csv('input/HackerRank-Developer-Survey-2018-Codebook.csv')
 survey_codebook = survey_codebook.set_index('Data Field')
 
-print("Processing...")
+print("======= A Guide for Developers =======")
 
-# Show the total number of responses
+# Feature 1
 survey.dropna(axis=0,how='all',inplace=True)
-print("\nWe have ",survey.shape," responses in total.")
+print("\nWe have",survey.shape,"responses in total.")
 
-# Show the Age Distribution
-print("\n# Age Distribution")
-count = survey['q2Age'].value_counts()
-print(count)
-plt.figure(figsize=(12,5))
-sns.barplot(count.values,count.index,palette='pink')
-for i,v in enumerate(count.values):
-    plt.text(0.8,i,v,color='k',fontsize=12)
-    
-plt.title('Age Distribution')
-plt.show()
-
-# Show the Age Begin Coding
-print("\n# Distribution of Age begin coding")
-count = survey['q1AgeBeginCoding'].value_counts()
-print(count)
-plt.figure(figsize=(10,6))
-sns.barplot(count.values,count.index,palette='terrain')
-for i,v in enumerate(count.values):
-    plt.text(0.8,i,v,color='k',fontsize=12,va='center')
-
-plt.title('Distribution of Age begin coding')
-plt.xlabel('count')
-plt.show()
-
-# Show the highest education distribution
+# Feature 1
 print("\n# Distribution of Highest education level")
 count = survey['q4Education'].value_counts()
 print(count)
 plt.figure(figsize=(16,4))
-sns.barplot(count.values,count.index,palette='coolwarm')
+sns.barplot(count.values,count.index,palette='BuPu')
 for i,v in enumerate(count):
     plt.text(1,i,v,fontsize=12,va='center')
 plt.xlabel('count')
 plt.title('Distribution of Highest education level')
 plt.show()
 
-# Show the current employment level
+# Feature 1 Learning Source
+print("\n# Popular learning source among Developers")
+cols = survey.columns[survey.columns.str.startswith('q30')]
+learn =pd.DataFrame()
+
+for i in cols:
+    agg = survey[i].value_counts().reset_index(name='count')
+    learn = pd.concat([learn,agg])
+
+learn.sort_values(by='count',ascending=False,inplace=True)
+print(learn)
+plt.figure(figsize=(16,10))
+sns.barplot(learn['count'],learn['index'],palette='BuPu')
+for i,v in enumerate(learn['count']):
+    plt.text(10,i,v,fontsize=12,va='center')
+plt.xlabel('Count')
+plt.ylabel('')
+plt.title('Source of learning')
+plt.show()
+
+# Feature 2
 print("\n# Distribution of Current employment level")
 count = survey['q8JobLevel'].value_counts()
 print(count)
-sns.barplot(x=count.values,y=count.index,palette='cool')
+sns.barplot(x=count.values,y=count.index,palette='BuPu')
 for i,v in enumerate(count.values):
     plt.text(1,i,v,fontsize=12,va='center')
 plt.title('Distribution of Current employment level')
-plt.show()  
+plt.show()
 
-"""
-# Show current role at job
+# Feature 2
+print("\n# Distribution of Current Job Role")
 f, ax = plt.subplots(1,2,figsize=(16,10))
 rolecount = survey['q9CurrentRole'].value_counts()
-sns.barplot(rolecount.values,rolecount.index,palette='hsv',ax=ax[0],)
+print(rolecount)
+sns.barplot(rolecount.values,rolecount.index,palette='BuPu',ax=ax[0],)
 ax[0].set_title('Current Job Role')
 ax[0].set_xlabel('count')
 for i,v in enumerate(rolecount.values):
     ax[0].text(10,i,v,fontsize='12',va='center')
+
+# Feature 3
+print("\n# Distribution of Current employment level")
+survey = survey[survey['CountryNumeric2'] == 'United States']
+res=survey['q27EmergingTechSkill'].value_counts()
+print(res)
+figure = plt.figure(figsize=(16,10))
+sns.barplot(x=res.values,y=res.index,palette='BuPu')
+for i,v in enumerate(res.values):
+    plt.text(10,i,v,fontsize=20,va='center')
+plt.xlabel('Count',fontsize=12)
+plt.title('Emerging Technologies')
+plt.show()
+
+# Feature 4
+print("\n# Popular Programming from employers")
+# cols = survey.columns[survey.columns.str.startswith('q25')]
+# cols = cols.drop('q25LangOther')
+
+# f,ax = plt.subplots(4,6,figsize=(16,25))
+# axs = ax.ravel()
+
+# for i,c in enumerate(cols):
+#     sns.countplot(survey[c],ax=axs[i],palette='BuPu')
+#     axs[i].set_ylabel('')
+#     axs[i].set_xlabel('')
+#     axs[i].set_title(survey_codebook.loc[c]['Survey Question'])
+
+# plt.subplots_adjust(hspace=0.5,wspace=0.5)
+# plt.suptitle('Programming language know or will learn',fontsize=14)
+# plt.show()
+#####
+cols = survey.columns[survey.columns.str.startswith('q25')]
+List = []
+for i in cols:
+    list = []
+    count = survey[i].count()
+    list.append(i[7:])
+    list.append(count)
+    List.append(list)
+
+language = pd.DataFrame(data = List, columns = ['index','count'])
+language.sort_values(by='count',ascending=False)
+print(language)
+plt.figure(figsize=(16,10))
+sns.barplot(language['count'],language['index'],palette='BuPu')
+for i,v in enumerate(language['count']):
+    plt.text(10,i,v,fontsize=12,va='center')
     
+plt.xlabel('Count')
+plt.ylabel('Language')
+plt.title('Preferred Languages')
+plt.show()
+
+# Feature 5 
+# print("\n# What Recruiters look for in Software developers")
+# col1 = survey.columns[survey.columns.str.startswith('q21')]
+# col2 = survey.columns[survey.columns.str.startswith('q22')]
+# skills = pd.DataFrame()
+# col1
+# for i in col1:
+#     agg = survey[i].value_counts().reset_index(name='count')
+#     skills = pd.concat([skills,agg],axis=0,ignore_index=True)
+
+# lang = pd.DataFrame()
+# for i in col2:
+#     agg2 = survey[i].value_counts().reset_index(name='count')
+#     lang = pd.concat([lang,agg2])
+    
+# lang.sort_values(by='count',ascending=False,inplace=True)
+
+# skills.loc[len(skills)]=['Language Proficiency',lang['count'].sum()]
+# skills.sort_values(by='count',ascending=False,inplace=True)
+# print(skills)
+
+# f,ax =plt.subplots(1,2,figsize=(15,10))
+# sns.barplot(skills['count'], skills['index'], palette='BuPu',ax=ax[0])
+# for i,v in enumerate(skills['count']):
+#     ax[0].text(100,i,v,fontsize=18,verticalalignment='center')
+# ax[0].set_xlabel('Count')
+# ax[0].set_ylabel('Skills')
+# ax[0].set_title('Desired Skill required')
+# plt.subplots_adjust(wspace=0.5)
+# plt.show()
+
+# Feature 5
+print("\n# How employers measure you")
+# cols = survey.columns[survey.columns.str.startswith('q13')]
+# #cols
+# skills = pd.DataFrame()
+
+# for i in cols:
+#     agg = survey[i].value_counts().reset_index(name='count')    
+#     skills = pd.concat([skills,agg])
+    
+# print(skills)
+# skills.sort_values(by='count',ascending=False,inplace=True)
+
+# plt.figure(figsize=(16,6))
+# sns.barplot(skills['count'],skills['index'],palette='BuPu')
+
+# for i,v in enumerate(skills['count']):
+#     plt.text(1,i,v,fontsize=20,verticalalignment='center')
+                     
+# plt.title('Employers top most ways of mesuring skills')
+# plt.xlabel('Count')
+# plt.show()
+
+survey['q13EmpMeasOtherCodingChallenge'].value_counts()
+
+cols = survey.columns[survey.columns.str.startswith('q13')]
+interview = pd.DataFrame()
+
+for i in cols:
+    content = survey[i].value_counts().reset_index(name='count')
+    interview = pd.concat([interview,content])
+
+interview.sort_values(by='count',ascending=False,inplace=True)
+print(interview)
+plt.figure(figsize=(16,10))
+sns.barplot(interview['count'],interview['index'],palette='BuPu')
+for i,v in enumerate(interview['count']):
+    plt.text(10,i,v,fontsize=12,va='center')
+    
+plt.xlabel('Count')
+plt.ylabel('')
+plt.title('Popular Measurement')
+plt.show()
+
+"""
 agg = survey.groupby(['q9CurrentRole','q3Gender'])['q3Gender'].count().reset_index(name='count')
 agg = agg.pivot(columns='q3Gender',index='q9CurrentRole',values='count')
 sns.heatmap(agg,cmap='Pastel1',annot=True,fmt='.0f',ax=ax[1])

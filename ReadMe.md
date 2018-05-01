@@ -3,8 +3,9 @@
 
 ## Look-up table
 
-- [Final presentation](#Final)
+- [Final Presentation](#Final)
 - [Team](#Team)
+- [How To](#How)
 
 ## Final Presentation
 - [Shared ppt](https://goo.gl/E9fxfE)
@@ -14,4 +15,6 @@
 ---|---
 [Chloe Kim](mailto:minkyun3@andrew.cmu.edu) |[Phoebe Wu](mailto:minkyun3@andrew.cmu.edu)
 
-- [Blah Blah](link)
+## How To
+- 1. Get user information to analize
+![](https://github.com/phoebeWzx/Python-Group-12/UserInterface/ui1.png)

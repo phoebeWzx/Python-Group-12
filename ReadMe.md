@@ -1,4 +1,4 @@
-# Job Seekers
+# A Guide for developers 
 *Know yourself. - Socrates*
 
 ## Look-up table

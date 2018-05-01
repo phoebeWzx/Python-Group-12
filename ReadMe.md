@@ -3,7 +3,11 @@
 
 ## Look-up table
 
+- [Final presentation](#Presentation)
 - [Team](#Team)
+
+## Presentation
+- [Shared ppt](https://goo.gl/Zfe4Jk)
 
 ## Team : the Job Seekers
 [![Chloe Kim](chloe.png)](mailto:minkyun3@andrew.cmu.edu)  | [![Phoebe Wu](pheobe.png)](mailto:minkyun3@andrew.cmu.edu)

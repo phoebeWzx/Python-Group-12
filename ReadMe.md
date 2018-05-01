@@ -5,7 +5,7 @@
 
 - [Final Presentation](#Final)
 - [Team](#Team)
-- [How To](#How)
+- [How To Use Our Application](#How)
 
 ## Final Presentation
 - [Shared ppt](https://goo.gl/E9fxfE)
@@ -15,13 +15,15 @@
 ---|---
 [Chloe Kim](mailto:minkyun3@andrew.cmu.edu) |[Phoebe Wu](mailto:minkyun3@andrew.cmu.edu)
 
-## How To
-1. Get the user information to analize
+## How To Use Our Application
+### 1. Get the user information to analize
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/consol_company1.png)
-2. Show the user visualized data (Text also will be offered)
+
+### 2. Show the user visualized data (Text also will be offered)
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/consol_survey1.png)
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Figures/Figure_1.png)
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Figures/Figure_2.png)
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Figures/Figure_3.png)
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Figures/Figure_4.png)
-3. Give the user an individualized advice
+
+### 3. Give the user an individualized advice

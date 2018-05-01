@@ -45,4 +45,4 @@
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/conosol3.png)
 
 ## Final Presentation
-- [Shared ppt](https://goo.gl/E9fxfE)
+- [slides](https://github.com/phoebeWzx/Python-Group-12/blob/master/The_Job_Seekers_presentation_deck.pptx)

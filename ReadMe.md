@@ -1,29 +1,48 @@
 # A Guide for developers 
-*Know yourself. - Socrates*
+*We offers useful information with visualized data. Become more competitive with us!*
 
 ## Look-up table
 
-- [Final Presentation](#Final)
 - [Team](#Team)
-- [How To Use Our Application](#How)
-
-## Final Presentation
-- [Shared ppt](https://goo.gl/E9fxfE)
+- [Main Features](#Features)
+- [Text Result](#Text)
+- [Raw Data](#Raw)
+- [Final Presentation](#Final)
 
 ## Team : the Job Seekers
 [![Chloe Kim](chloe.png)](mailto:minkyun3@andrew.cmu.edu)  | [![Phoebe Wu](pheobe.png)](mailto:minkyun3@andrew.cmu.edu)
 ---|---
 [Chloe Kim](mailto:minkyun3@andrew.cmu.edu) |[Phoebe Wu](mailto:minkyun3@andrew.cmu.edu)
 
-## How To Use Our Application
-### 1. Get the user information to analize
-![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/consol_company1.png)
+## Features
+### Feature 1
+- Distribution of Developers in Education
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/feature1_1.png)
+- Popular learning source of developers
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/feature1_1.png)
 
-### 2. Show the user visualized data (Text also will be offered)
-![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/consol_survey1.png)
-![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Figures/Figure_1.png)
-![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Figures/Figure_2.png)
-![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Figures/Figure_3.png)
-![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Figures/Figure_4.png)
+### Feature 2
+- Distribution of Developers in Employment
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/feature2_1.png)
+- Distribution of Developers in Role (Position)
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/feature2_2.png)
 
-### 3. Give the user an individualized advice
+### Feature 3
+- Emerging tech skills
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/feature3.png)
+
+### Feature 4
+- Popular Programming Languages
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/feature4.png)
+
+### Feature 5
+- How does employers measure you?
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/feature5.png)
+
+## Text Result from Console
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/conosol1.png)
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/conosol2.png)
+![](https://github.com/phoebeWzx/Python-Group-12/blob/master/UserInterface/conosol3.png)
+
+## Final Presentation
+- [Shared ppt](https://goo.gl/E9fxfE)

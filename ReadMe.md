@@ -1,14 +1,14 @@
 # A Guide for developers 
 *We offers useful information with visualized data. Become more competitive with us!*
 
-## Look-up table
+## Table of Contents
 
-- [Team](#Team)
-- [User Interface in terminal](#User)
+- [Team](#Team-:-the-Job-Seekers)
+- [User Interface in terminal](#User-Interface-in-terminal)
 - [Main Features](#Features)
-- [Text Result](#Text)
+- [Text Result](#Text-Result-from-Console)
 - [Raw Data](#Raw)
-- [Final Presentation](#Final)
+- [Final Presentation](#Final-Presentation)
 
 ## Team : the Job Seekers
 [![Chloe Kim](chloe.png)](mailto:minkyun3@andrew.cmu.edu)  | [![Phoebe Wu](pheobe.png)](mailto:minkyun3@andrew.cmu.edu)

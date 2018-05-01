@@ -7,7 +7,7 @@
 - [Team](#Team)
 
 ## Final Presentation
-- [Shared ppt](https://goo.gl/Zfe4Jk)
+- [Shared ppt](https://goo.gl/E9fxfE)
 
 ## Team : the Job Seekers
 [![Chloe Kim](chloe.png)](mailto:minkyun3@andrew.cmu.edu)  | [![Phoebe Wu](pheobe.png)](mailto:minkyun3@andrew.cmu.edu)

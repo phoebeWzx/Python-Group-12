@@ -7,8 +7,8 @@
 - [User Interface in terminal](#user-interface-in-terminal)
 - [Main Features](#features)
 - [Text Result](#text-result-from-console)
-- [Raw Data](#Raw)
-- [Final Presentation](#final-psresentation)
+- [Raw Data](#raw-data)
+- [Final Presentation](#final-presentation)
 
 ## Team
 ### The Job Seekers
@@ -48,6 +48,9 @@
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Images/conosol1.png)
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Images/conosol2.png)
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Images/conosol3.png)
+
+## Raw Data
+- Data files (https://github.com/phoebeWzx/Python-Group-12/tree/master/DataFiles)
 
 ## Final Presentation
 - [slides](https://github.com/phoebeWzx/Python-Group-12/blob/master/The_Job_Seekers_presentation_deck.pptx)

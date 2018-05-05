@@ -50,7 +50,7 @@
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Images/conosol3.png)
 
 ## Raw Data
-- Data files (https://github.com/phoebeWzx/Python-Group-12/tree/master/DataFiles)
+- [Data files](https://github.com/phoebeWzx/Python-Group-12/tree/master/DataFiles)
 
 ## Final Presentation
 - [slides](https://github.com/phoebeWzx/Python-Group-12/blob/master/The_Job_Seekers_presentation_deck.pptx)

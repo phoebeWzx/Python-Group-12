@@ -50,7 +50,11 @@
 ![](https://github.com/phoebeWzx/Python-Group-12/blob/master/Images/conosol3.png)
 
 ## Raw Data
-- [Data files](https://github.com/phoebeWzx/Python-Group-12/tree/master/DataFiles)
+- [Raw data 1 - source1.csv](https://github.com/phoebeWzx/Python-Group-12/tree/master/DataFiles/datasources/developer-survey-2018/source)
+- [Raw data 2 - source2.csv](https://github.com/phoebeWzx/Python-Group-12/tree/master/DataFiles/datasources/developer-survey-2018/source)
+- [Raw data 3 - source3.csv](https://github.com/phoebeWzx/Python-Group-12/tree/master/DataFiles/datasources/developer-survey-2018/source)
+- [Merged Data 1 for survey.py](https://github.com/phoebeWzx/Python-Group-12/blob/master/DataFiles/datasources/developer-survey-2018/HackerRank-Developer-Survey-2018-Values.csv)
+- [Merged Data 2 for survey.py](https://github.com/phoebeWzx/Python-Group-12/blob/master/DataFiles/datasources/developer-survey-2018/HackerRank-Developer-Survey-2018-Codebook.csv)
 
 ## Final Presentation
 - [slides](https://github.com/phoebeWzx/Python-Group-12/blob/master/The_Job_Seekers_presentation_deck.pptx)
